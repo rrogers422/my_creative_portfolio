@@ -1,0 +1,60 @@
+header{
+  background-color: #2f4454;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+header h1{
+text-decoration: underline;
+  color: # #376e6f;
+  display: inline-block;
+  padding: 6px 12px;
+}
+.banner{
+  position: relative;
+}
+
+.banner .welcome{
+  background: #2e1518;
+  color: white;
+  padding: 0px;
+  font-size: 10px;
+  position: absolute;
+  left: 0;
+  top: 30%;
+} 
+.banner .welcome span{
+  font-size: 1.4em;
+}
+nav{
+  background: #F4F4F4;
+  padding: 20px;
+  position: sticky;
+  top: 106px;
+  z-index: 1;
+}
+nav ul{
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav li{
+  width: 25%;
+  display: inline-block;
+  font-size: 24px;
+}
+nav li a{
+  text-decoration: none;
+  color: #4B4B4B;
+}
+nav li a:hover{
+  text-decoration: underline;
+}
+nav li a.join{
+  color: #F63232;
+}
