@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: ,Georgia, Times, 'Times New Roman', serif;
+  font-family: Georgia, Times, 'Times New Roman', serif;
   color: var();
   background-color: var(--tertiary);
   line-height: 1;
@@ -77,9 +77,111 @@ main{
   text-align: center;
 }
 
+main p{
+  font-size: 20px;
+  color: #281c26;
+  background-color:var(--secondary);
+  text-align: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+h2{
+  font size: 22px;
+  color: var(--primary);
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  background-color: var(--secondary);
+  text-align: center;
+  border: darkgrey 2px solid;
+  max-width: 20%;
+  margin: 0 0 2% 40%;
+  }
+
 .header-img2{
-  border: 2px black solid;
+  border: 2px darkgrey solid;
   width: 30%;
 }
 
+/* Work images/links */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.flex-item {
+  background-image: url(./images/bw_lights.jpeg);
+  border: 3px solid var(--secondary);
+  background-color: var(--primary);
+  color: var(--tertiary);
+  min-height: 50px;
+  max-height: 100px;
+  max-width: 35%;
+  flex-basis: calc(50% - 1em);
+  display: flex;
+  align-items: flex-end;
+  padding: 0 0 40px 0;
+  margin: 1;
+  background-blend-mode: soft-light;
+  background-size: 100%;
+  transition: all 0.5s;
+  font-size: 0.9rem;
+}
+
+.flex-item:hover {
+background-image: url(./images/hero.bg.jpeg);
+}
+
+.flex-item div {
+background-color: var(--secondary);
+padding: 10px 10px;
+}
+
+.flex-item h3 {
+font-size: 1.4rem;
+}
+
+.flex-item:last-child {
+  min-height: 300px;
+  flex-basis: 100%;
+}
+
+/*footer*/
+ 
+footer h3{
+  font size: 80px;
+  padding: 4px;
+  color: var(--primary);
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  background-color: var(--secondary);
+  text-align: center;
+  border: darkgrey 2px solid;
+  max-width: 20%;
+  margin: 2% 0 2% 40%;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  color: #281c26;
+  background-color: var(--primary);
+}
+
+footer a{
+  background-color: var(--light);
+}
+
+
+/*media quesries*/
+@media screen and (max-width: 768px) {
+  .flex-item,
+  .flex-item:first-child {
+    flex-basis: 100%;
+  }
+
+  @media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
