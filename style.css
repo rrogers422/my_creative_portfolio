@@ -7,7 +7,7 @@ body {
   padding: 0;
   font-family: Georgia, Times, 'Times New Roman', serif;
   color: var();
-  background-color: var(--tertiary);
+  background-color: var(--light);
   line-height: 1;
 }
 
@@ -24,7 +24,7 @@ p {
   margin: 0;
 }
 
-  /* brand color palette */
+  /* color palette */
   :root {
     --primary: #543f52;
     --secondary: #d3c7d5;
@@ -100,51 +100,59 @@ h2{
 .header-img2{
   border: 2px darkgrey solid;
   width: 30%;
+  border-radius: 15px;
+  box-shadow: 25, 20, 10;
+
 }
 
 /* Work images/links */
-.flex-container {
+.container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.flex-item {
+
+.item {
   background-image: url(./images/bw_lights.jpeg);
   border: 3px solid var(--secondary);
   background-color: var(--primary);
   color: var(--tertiary);
-  min-height: 50px;
+  min-height: 200px;
   max-height: 100px;
   max-width: 35%;
   flex-basis: calc(50% - 1em);
   display: flex;
-  align-items: flex-end;
-  padding: 0 0 40px 0;
-  margin: 1;
+  align-items: center;
+  padding: 0 0 10px 0;
+  margin: .5em;
   background-blend-mode: soft-light;
   background-size: 100%;
   transition: all 0.5s;
   font-size: 0.9rem;
+  border-radius: 60px;
 }
 
-.flex-item:hover {
+.item:first-child {
+  min-height: 300px;
+  flex-basis: 80%;
+  border-radius: 70px;
+}
+
+.item:hover {
 background-image: url(./images/hero.bg.jpeg);
 }
 
-.flex-item div {
+.item div {
 background-color: var(--secondary);
 padding: 10px 10px;
 }
 
-.flex-item h3 {
-font-size: 1.4rem;
+.item h3 {
+font-size: 1.1rem;
 }
 
-.flex-item:last-child {
-  min-height: 300px;
-  flex-basis: 100%;
-}
+
 
 /*footer*/
  
