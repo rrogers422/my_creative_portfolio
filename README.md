@@ -14,5 +14,6 @@ All of the links are attatched to a specific section of the page and will take y
 <img width="1440" alt="Screen Shot 2021-02-08 at 9 10 44 PM" src="https://user-images.githubusercontent.com/69885419/107306338-b0bd7180-6a52-11eb-9134-60d3f6614863.png">
 
 
-##### Link
-
+##### Link  
+ https://github.com/rrogers422/my_creative_portfolio
+ https://rrogers422.github.io/my_creative_portfolio/
