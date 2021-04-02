@@ -9,10 +9,8 @@ The page features flex attributes that makes it vierwer friendly to those using 
 All of the links are attatched to a specific section of the page and will take you to referenced linked.
 
 #### Visuals
-<img width="1440" alt="Screen Shot 2021-02-08 at 9 10 30 PM" src="https://user-images.githubusercontent.com/69885419/107306329-ae5b1780-6a52-11eb-9850-6e291e7602e9.png">
-<img width="1440" alt="Screen Shot 2021-02-08 at 9 10 38 PM" src="https://user-images.githubusercontent.com/69885419/107306335-b024db00-6a52-11eb-93b6-45e657237239.png">
-<img width="1440" alt="Screen Shot 2021-02-08 at 9 10 44 PM" src="https://user-images.githubusercontent.com/69885419/107306338-b0bd7180-6a52-11eb-9134-60d3f6614863.png">
-
+<img width="720" alt="Screen Shot 2021-04-02 at 4 15 12 PM" src="https://user-images.githubusercontent.com/69885419/113450862-c144f500-93ce-11eb-857e-0a99d30a89b4.png">
+<img width="720" alt="Screen Shot 2021-04-02 at 4 15 18 PM" src="https://user-images.githubusercontent.com/69885419/113450880-c99d3000-93ce-11eb-80fc-6e2eb90e6b06.png">
 
 ##### Link  
  https://github.com/rrogers422/my_creative_portfolio
