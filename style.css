@@ -16,7 +16,7 @@ body{
   }
 
 .hero-image {
-  background-image: url('./images/coding.jpeg');
+  background-color: black;
   height: 400px;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,19 +24,53 @@ body{
   position: relative;
 }
 
-.hero-text {
+.hero-container {
   font-size: 35px;
   text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: black;
   font-family: 'Abril Fatface', cursive;
 }
 
+.hero-container span {
+  color: white;
+  text-transform: uppercase;
+  display: block;
 
+}
 
+.text-1 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  background: black;
+  position: relative;
+  animation: text 3s 1;
+}
+
+.text-2 {
+  font-size: 25px;
+  color: aqua;
+}
+
+@keyframes text {
+  0%{
+    color: black;
+    margin-bottom: -40px;
+  }
+  30%{
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85%{
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
 h1,
 h2,
 h3,
@@ -60,6 +94,8 @@ p {
   text-align: justify;
 }
 
+
+
 main{ 
   margin-top:20px;
   margin-bottom: 45px;
@@ -75,84 +111,43 @@ main p{
   margin-left: 20%;
 }
 
-h2{
-  font size: 22px;
-  color: var(--primary);
-  font-family: Georgia, Times, 'Times New Roman', serif;
-  background-color: var(--secondary);
+h2 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  background-color: black;
   text-align: center;
   border: darkgrey 2px solid;
   max-width: 20%;
-  margin: 0 0 2% 40%;
-  }
+  margin: 0 0 1% 40%;
+} 
 
 img {
-  margin-left: 3px;
+  margin-left: 15px;
   border-radius: 200px;
-  width: 30%;
-  height: 40%;
+  width: 20%;
+  height: 25%;
 }
 
-
-/* Work images/links */
-/* .container{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.bio {
+  margin-right: 10%;
 }
 
-
-.item {
-  background-image: url(./images/bw_lights.jpeg);
-  border: 3px solid var(--secondary);
-  background-color: var(--primary);
-  color: var(--tertiary);
-  min-height: 200px;
-  max-height: 100px;
-  max-width: 35%;
-  flex-basis: calc(50% - 1em);
-  display: flex;
-  align-items: center;
-  padding: 0 0 10px 0;
-  margin: .5em;
-  background-blend-mode: soft-light;
-  background-size: 100%;
-  transition: all 0.5s;
-  font-size: 0.9rem;
-  border-radius: 60px;
+.thumbnail {
+  position: relative;
+  
 }
-
-.item:first-child {
-  min-height: 300px;
-  flex-basis: 80%;
-  border-radius: 70px;
-}
-
-.item:hover {
-background-image: url(./images/hero.bg.jpeg);
-}
-
-.item div {
-background-color: var(--secondary);
-padding: 10px 10px;
-}
-
-.item h3 {
-font-size: 1.1rem;
-}
-
 
 
 /*footer*/
  
 footer h3{
-  font size: 80px;
+  font size: 40px;
   padding: 4px;
-  color: var(--primary);
-  font-family: Georgia, Times, 'Times New Roman', serif;
-  background-color: var(--secondary);
+  color: black;
+  font-family: 'Abril Fatface', cursive;
   text-align: center;
-  border: darkgrey 2px solid;
+  border: darkgrey 1px solid;
   max-width: 20%;
   margin: 2% 0 2% 40%;
 }
@@ -165,6 +160,7 @@ footer {
 }
 
 footer a{
+  text
   background-color: var(--light);
 } */
 
