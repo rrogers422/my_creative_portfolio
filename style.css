@@ -131,8 +131,8 @@ h2 {
 img {
   margin-left: 15px;
   border-radius: 200px;
-  width: 20%;
-  height: 25%;
+  width: 30%;
+  height: 35%;
 }
 
 .flex-container {
@@ -145,7 +145,7 @@ img {
 .flex-item:hover {
   background-image: url(./images/hero.bg.jpeg);
   }
-
+/* 
 .flex-item1 {
   background-image: url(./images/bustamovie.png);
   border: 2px solid black;
@@ -199,7 +199,7 @@ img {
   background-size: 100%;
   transition: all 0.5s;
   font-size: 0.9rem;
-}
+} */
 
 
 .flex-item h3 {
@@ -229,6 +229,49 @@ footer {
   text-align: center;
   color: ;
   background-color: black;
+}
+
+#work {
+  text-align: center;
+}
+
+.project,
+.quiz,
+.scheduler,
+.weather {
+  position: relative;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.project-heading,
+.quiz-heading,
+.scheduler-heading,
+.weather-heading {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3em;
+  font-weight: bold;
+  color: teal;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px;
+  border: 2px solid teal;
+  border-radius: 5px;
+}
+
+.project:hover,
+.quiz:hover,
+.scheduler:hover,
+.weather:hover {
+  opacity: 0.7;
+  transition: 0.5s ease;
+}
+
+.work-text {
+  padding: 5px 25px 10px 25px;
+  color: var(--dark-color);
 }
 
 /* /* footer a{
